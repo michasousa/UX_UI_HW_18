@@ -1,0 +1,37 @@
+header {
+  vertical-align: top;
+  display: flex; 
+  flex-direction: row;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  
+}
+ul li{
+  display: inline;
+}
+.links{
+  display: right
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: pink;
+  color: black;
+}
+
+h1{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
