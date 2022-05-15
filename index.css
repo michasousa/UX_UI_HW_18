@@ -27,11 +27,23 @@ ul li{
 h1{
   font-size: 20px;
   font-family: sans-serif;
+  text-align: center;
 }
 
 .flex-container {
   display: flex;
   justify-content: center;
   margin: 30px;
+  flex-direction:row;
+}
+
+.footer {
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
